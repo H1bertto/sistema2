@@ -11,7 +11,7 @@
     <title>Vegans2Go</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{% static 'images/logo/favicon.png' %}" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static 'images/vegans-nav-logo.png' %}" type="image/x-icon">
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="{% static 'css/animate-3.7.0.css' %}">
@@ -30,7 +30,7 @@
     <!-- Preloader End -->
 
     <!-- Header Area Starts -->
-	<header class="header-area">
+	<header class="header-area header-area2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
@@ -39,8 +39,8 @@
                     </div>
                 </div>
                 <div class="col-lg-10">
-                    <div class="main-menu">
-                        <ul style="position: relative; top: 2vh;">
+                    <div class="main-menu main-menu2">
+                        <ul>
                             <li class="active"><a href="{% url 'core:index' %}">Home</a></li>
                             <li><a href="{% url 'core:sobre' %}">Sobre</a></li>
                             <li><a href="{% url 'menu:cardapio' %}">Cardápio</a></li>
@@ -71,46 +71,59 @@
                     <div class="col-md-4">
                         <div class="single-widget single-widget1">
                             <a href="{% url 'core:index' %}"><img src="{% static 'images/vegans-nav-logo.png' %}" alt=""></a>
-                            <p class="mt-3">Which morning fourth great won't is to fly bearing man. Called unto shall seed, deep, herb set seed land divide after over first creeping. First creature set upon stars deep male gathered said she'd an image spirit our</p>
+                            <p class="mt-3">
+                                O Vegan’s 2 Go é o restaurante 100% vegano localizado no coração da Savassi.
+                                Surgiu por ativismo e amor aos animais, com o intuito de mostrar as pessoas que é possível se alimentar de forma gostosa, saudável e sustentável, sem causar sofrimento aos animais e danos ao nosso planeta!
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="single-widget single-widget2 my-5 my-md-0">
-                            <h5 class="mb-4">contact us</h5>
+                            <h5 class="mb-4">Endereços</h5>
                             <div class="d-flex">
                                 <div class="into-icon">
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="info-text">
-                                    <p>Av Getúlio Vargas, 1423 - Savassi - BH</p>
-                                    <p>Novo Endereço - BH</p>
+                                    <p>
+                                        Av. Getúlio Vargas, 1423 - Savassi<br>
+                                        Belo Horizonte - MG
+                                    </p>
+                                    <p>
+                                        Av. Aggeo Pio Sobrinho, 187, Lj 15<br>
+                                        Buritis - Belo Horizonte - MG
+                                    </p>
                                 </div>
                             </div>
+                            <h5 class="mb-4">Contatos</h5>
                             <div class="d-flex">
                                 <div class="into-icon">
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="info-text">
-                                    <p>(31) 3221-1910</p>
+                                    <p>Savassi: (31) 3221-1910</p>
+                                    <p>Buritis: (31) 3582-8516 </p>
                                 </div>
                             </div>
-                            <div class="d-flex">
-                                <div class="into-icon">
-                                    <i class="fa fa-envelope-o"></i>
-                                </div>
-                                <div class="info-text">
-                                    <p>vegans2go@teste.com</p>
-                                </div>
-                            </div>
+<!--                            <div class="d-flex">-->
+<!--                                <div class="into-icon">-->
+<!--                                    <i class="fa fa-envelope-o"></i>-->
+<!--                                </div>-->
+<!--                                <div class="info-text">-->
+<!--                                    <p>vegans2go@teste.com</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="single-widget single-widget3">
-                            <h5 class="mb-4">opening hours</h5>
-                            <p>Seg ...................... Closed</p>
-                            <p>Ter - Sex ................ 11h - 00h</p>
-                            <p>Sab ...................... 12h - 02h</p>
-                            <p>Dom ...................... 14h - 22h</p>
+                            <h5 class="mb-4">Horario de Funcionamento</h5>
+                            <p>Ter - Sáb ................ 16h - 23h</p>
+<!--                            <p>Qua ...................... 16h - 23h</p>-->
+<!--                            <p>Qui ...................... 16h - 23h</p>-->
+<!--                            <p>Sex ...................... 16h - 23h</p>-->
+<!--                            <p>Sáb ...................... 16h - 23h</p>-->
+                            <p>Dom ....................... 15h - 22h</p>
                         </div>
                     </div>
                 </div>
@@ -134,11 +147,11 @@
                         <div class="social-icons">
                             <ul>
                                 <li class="no-margin">Follow Us</li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/pages/Vegans-2-Go/702825560067658"><i class="fa fa-facebook"></i></a></li>
+<!--                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+                                <li><a href="https://www.instagram.com/vegans2go/"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>

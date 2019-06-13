@@ -12,5 +12,10 @@ class ProdutoAdmin(admin.ModelAdmin):
 admin.site.register(Produto, ProdutoAdmin)
 
 
+class CatedoriaAdmin(admin.ModelAdmin):
+    list_display = ['nome', 'descricao']
+    search_fields = ['nome']
+
+
 # Categoria
-admin.site.register(Categoria)
+admin.site.register(Categoria, CatedoriaAdmin)

@@ -88,6 +88,14 @@ DATABASES = {
         'PASSWORD': 'a1234',
         'HOST': '104.196.132.251',
         'PORT': '3306',
+    },
+    'default2': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'test',
+        'USER': 'humberto',
+        'PASSWORD': 'a1234',
+        'HOST': '35.227.99.103',
+        'PORT': '3306',
     }
 }
 
@@ -135,7 +143,7 @@ MEDIA_URL = '/media/'
 
 # Auth
 LOGIN_URL = "accounts:login"
-# LOGIN_REDIRECT_URL = "core:index"
+LOGIN_REDIRECT_URL = '/conta/manage'
 # LOGOUT_URL = "accounts:logout"
 # LOGOUT_REDIRECT_URL = "core:index"
 AUTH_USER_MODEL = 'accounts.Usuario'
